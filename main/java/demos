@@ -402,7 +402,15 @@ public class DetailsActivity extends AppCompatActivity {
             }
         }
     }
-
+/*
+ for(i=2;i<count;++i)//loop starts from 2 because 0 and 1 are already printed    
+ {    
+  n3=n1+n2;    
+  System.out.print(" "+n3);    
+  n1=n2;    
+  n2=n3;    
+ } 
+*/
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent resultData) {
         // The ACTION_OPEN_DOCUMENT intent was sent with the request code READ_REQUEST_CODE.
